@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function () {
         
         // Add hover to squares
     
-        square.addEventListener('mouseover', function(e)
+        square.addEventListener('mouseenter', function(e)
         {
 
             e.target.classList.add('hover');
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Removes hover from squares
 
-        square.addEventListener('mouseout', function(e)
+        square.addEventListener('mouseleave', function(e)
         {
 
             e.target.classList.remove('hover');
